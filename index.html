@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silver (Ag) — The Element</title>
+  <meta name="description" content="A website dedicated to the chemical element Silver (Ag): history, properties, uses, and culture." />
+  <style>
+    :root {
+      --silver-light: #f5f5f5;
+      --silver-mid: #cfd3d6;
+      --silver-dark: #8a8f98;
+      --accent: #3b82f6;
+      --bg: #0f172a;
+      --text: #e5e7eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top, #1e293b, var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 4rem 1.5rem;
+      text-align: center;
+      background: linear-gradient(135deg, var(--silver-mid), var(--silver-light));
+      color: #0f172a;
+    }
+
+    header h1 {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      margin: 0;
+      letter-spacing: 0.05em;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      list-style: none;
+      padding: 0.75rem 1rem;
+      margin: 0;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      display: grid;
+      gap: 3rem;
+    }
+
+    section {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 1rem;
+      padding: 2rem;
+    }
+
+    section h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #111827, #020617);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: var(--silver-dark);
+    }
+
+    .ag-symbol {
+      font-size: 4rem;
+      font-weight: 700;
+      color: var(--silver-light);
+      text-align: center;
+    }
+
+    .atomic {
+      text-align: center;
+      color: var(--silver-mid);
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 3rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Silver</h1>
+    <p>The Chemical Element <strong>Ag</strong> — Atomic Number 47</p>
+  </header>
+
+  <!-- Hero Image -->
+  <section style="padding:0; margin:0;">
+    <img src="images/silver-bars.jpg" alt="Fine silver bullion bars" style="width:100%; max-height:520px; object-fit:cover; display:block;">
+  </section>
+
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#properties">Properties</a></li>
+      <li><a href="#uses">Uses</a></li>
+      <li><a href="#history">History</a></li>
+      <li><a href="#culture">Culture</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="overview">
+      <div class="ag-symbol">Ag</div>
+      <div class="atomic">Atomic Number 47 · Transition Metal</div>
+      <p>
+        Silver is a precious metal known for its brilliant luster, exceptional electrical conductivity,
+        and long-standing cultural significance. It has been valued for currency, ornamentation,
+        medicine, and technology for thousands of years.
+      </p>
+    </section>
+
+    <section id="properties">
+      <h2>Physical & Chemical Properties</h2>
+      <div class="grid">
+        <div class="card"><strong>Symbol:</strong> Ag</div>
+        <div class="card"><strong>Atomic Mass:</strong> 107.87 u</div>
+        <div class="card"><strong>Density:</strong> 10.49 g/cm³</div>
+        <div class="card"><strong>Melting Point:</strong> 961.8 °C</div>
+        <div class="card"><strong>Conductivity:</strong> Highest of all metals</div>
+        <div class="card"><strong>Oxidation:</strong> Tarnishes with sulfur compounds</div>
+      </div>
+    </section>
+
+    <section id="uses">
+      <h2>Modern Uses & Investment</h2>
+      <ul>
+        <li>Electronics and electrical contacts</li>
+        <li>Solar panels and photovoltaics</li>
+        <li>Jewelry, coins, and bullion</li>
+        <li>Medical and antimicrobial applications</li>
+        <li>Photography (historically)</li>
+      </ul>
+      <img src="images/silver-gorilla.jpg" alt="Silver as hard money breaking through markets" style="width:100%; border-radius:0.75rem; margin-top:1.5rem;">
+    </section>
+
+    <section id="history">
+      <h2>Historical Significance</h2>
+      <p>
+        Silver has been mined and used since antiquity, appearing in early civilizations such as
+        Mesopotamia, Egypt, Greece, and Rome. It formed the basis of many monetary systems and
+        influenced global trade for centuries.
+      </p>
+    </section>
+
+    <section id="culture">
+      <h2>Silver as a Critical Mineral</h2>
+      <p>
+        In the modern world, silver is increasingly recognized as a <strong>critical mineral</strong>.
+        Its unmatched conductivity makes it essential to green energy, advanced electronics,
+        and national infrastructure. This dual role — industrial necessity and monetary metal —
+        gives silver a unique strategic importance.
+      </p>
+      <img src="images/critical-silver.jpg" alt="Silver (Ag) as a critical mineral" style="width:100%; border-radius:0.75rem; margin-top:1.5rem;">
+    </section>
+  </main>
+
+  <footer>
+    © 2026 · Silver (Ag) · Built with GitHub Pages
+  </footer>
+
+</body>
+</html>
