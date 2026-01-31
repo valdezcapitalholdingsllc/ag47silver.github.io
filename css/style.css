@@ -206,3 +206,19 @@ footer {
 iframe {
   background: #020617;
 }
+.element-card {
+  max-width: 420px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.6),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.element-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 35px 80px rgba(0, 0, 0, 0.7),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
