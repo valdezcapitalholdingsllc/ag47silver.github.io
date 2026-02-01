@@ -308,3 +308,23 @@ iframe {
   margin-bottom: 1.25rem;
   color: #e5e7eb;
 }
+.site-footer {
+  margin-top: 5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #0b0b0b;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #d4d4d4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
