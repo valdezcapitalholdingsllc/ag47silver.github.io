@@ -271,3 +271,16 @@ button[disabled] {
   .top-badge { font-size: 0.85rem; }
   .nav { top: 44px; }
 }
+.element-card {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 16px 45px rgba(0,0,0,0.45);
+}
+
+#element .two-col {
+  align-items: center;
+}
