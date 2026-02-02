@@ -3,366 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Silver (Ag) — The Element</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="A website dedicated to the chemical element Silver (Ag): history, properties, uses, and culture." />
-  <style>
-    :root {
-      --silver-light: #f5f5f5;
-      --silver-mid: #cfd3d6;
-      --silver-dark: #8a8f98;
-      --accent: #3b82f6;
-      --bg: #0f172a;
-      --text: #e5e7eb;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      background: radial-gradient(circle at top, #1e293b, var(--bg));
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    header {
-      padding: 4rem 1.5rem;
-      text-align: center;
-      background: linear-gradient(135deg, var(--silver-mid), var(--silver-light));
-      color: #0f172a;
-    }
-
-    header h1 {
-      font-size: clamp(2.5rem, 6vw, 4rem);
-      margin: 0;
-      letter-spacing: 0.05em;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-    }
-
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      background: rgba(15, 23, 42, 0.9);
-      backdrop-filter: blur(8px);
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    nav ul {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      list-style: none;
-      padding: 0.75rem 1rem;
-      margin: 0;
-    }
-
-    nav a {
-      color: var(--text);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      color: var(--accent);
-    }
-
-    main {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 3rem 1.5rem;
-      display: grid;
-      gap: 3rem;
-    }
-
-    section {
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 1rem;
-      padding: 2rem;
-    }
-
-    section h2 {
-      margin-top: 0;
-      font-size: 1.8rem;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-      padding-bottom: 0.5rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background: linear-gradient(135deg, #111827, #020617);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 0.75rem;
-      padding: 1.25rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      color: var(--silver-dark);
-    }
-
-    .ag-symbol {
-      font-size: 4rem;
-      font-weight: 700;
-      color: var(--silver-light);
-      text-align: center;
-    }
-
-    .atomic {
-      text-align: center;
-      color: var(--silver-mid);
-      font-size: 1.1rem;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        padding: 3rem 1rem;
-      }
-    }
-  </style>
+  <title>AG47 Silver</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-  <header>
-  <header class="ag47-header">
-  <div class="ag47-header-overlay">
-    <h1>AG47 SILVER</h1>
-    <p>Silver · Strategy · Scarcity</p>
-  </div>
-</header>
-  <!-- Hero Image -->
-  <section style="padding:0; margin:0;">
-    <img src="images/silver-bars.jpg" alt="Fine silver bullion bars" style="width:100%; max-height:520px; object-fit:cover; display:block;">
+  <!-- HEADER IMAGE -->
+  <header class="header-image">
+    <img src="images/ag47-header.jpg" alt="AG47 Silver Header">
+  </header>
+
+  <!-- TITLE SECTION -->
+  <section class="intro">
+    <h1>AG47 Silver</h1>
+    <p class="tagline">Silver · Strategy · Scarcity</p>
   </section>
 
-  <nav>
-    <ul>
-      <li><a href="#overview">Overview</a></li>
-      <li><a href="#properties">Properties</a></li>
-      <li><a href="#uses">Uses</a></li>
-      <li><a href="#history">History</a></li>
-      <li><a href="#culture">Culture</a></li>
-    </ul>
-  </nav>
+  <!-- MAIN CONTENT -->
+  <main class="content">
 
-  <main>
-    <section id="overview">
-      <div class="ag-symbol">Ag</div>
-      <div class="atomic">Atomic Number 47 · Transition Metal</div>
+    <section>
+      <h2>Why Silver</h2>
       <p>
-        Silver is a precious metal known for its brilliant luster, exceptional electrical conductivity,
-        and long-standing cultural significance. It has been valued for currency, ornamentation,
-        medicine, and technology for thousands of years.
+        Silver is both a monetary metal and a critical industrial resource.
+        It is essential for electronics, solar energy, medical applications,
+        and national defense — while also serving as a hedge against currency
+        debasement and systemic risk.
       </p>
     </section>
-<section style="text-align:center;">
-  <img
-    src="images/ag-element-block.jpg"
-    alt="Silver element card"
-    class="element-card"
-  >
-</section>
 
-
-    <section id="properties">
-      <h2>Physical & Chemical Properties</h2>
-      <div class="grid">
-        <div class="card"><strong>Symbol:</strong> Ag</div>
-        <div class="card"><strong>Atomic Mass:</strong> 107.87 u</div>
-        <div class="card"><strong>Density:</strong> 10.49 g/cm³</div>
-        <div class="card"><strong>Melting Point:</strong> 961.8 °C</div>
-        <div class="card"><strong>Conductivity:</strong> Highest of all metals</div>
-        <div class="card"><strong>Oxidation:</strong> Tarnishes with sulfur compounds</div>
-      </div>
-    </section>
-
-    <section id="uses">
-      <h2>Modern Uses & Investment</h2>
-      <ul>
-        <li>Electronics and electrical contacts</li>
-        <li>Solar panels and photovoltaics</li>
-        <li>Jewelry, coins, and bullion</li>
-        <li>Medical and antimicrobial applications</li>
-        <li>Photography (historically)</li>
-      </ul>
-      <img src="images/silver-gorilla.jpg" alt="Silver as hard money breaking through markets" style="width:100%; border-radius:0.75rem; margin-top:1.5rem;">
-    </section>
-<section class="chart-section" id="investment-chart">
-  <div class="chart-header">
-    <h2>Silver Price Momentum</h2>
-    <p>Illustrative long-term trend — industrial demand meets monetary value</p>
-  </div>
-<section class="card">
-  <h3>Why Silver Matters</h3>
-  <p>
-    Silver is both an industrial necessity and a monetary metal.
-    As electrification, solar energy, and geopolitical instability
-    accelerate, physical silver demand continues to rise.
-  </p>
-</section>
-
-  <div class="chart-container">
-    <div class="chart">
-      <!-- Fake bars for now (placeholder data) -->
-      <div class="chart-bar" style="height: 40%;"></div>
-      <div class="chart-bar" style="height: 45%;"></div>
-      <div class="chart-bar" style="height: 50%;"></div>
-      <div class="chart-bar" style="height: 48%;"></div>
-      <div class="chart-bar" style="height: 55%;"></div>
-      <div class="chart-bar" style="height: 60%;"></div>
-      <div class="chart-bar" style="height: 65%;"></div>
-      <div class="chart-bar" style="height: 70%;"></div>
-      <div class="chart-bar" style="height: 68%;"></div>
-      <div class="chart-bar" style="height: 75%;"></div>
-      <div class="chart-bar" style="height: 80%;"></div>
-    </div>
-
-    <div class="chart-labels">
-      <span>Past</span>
-      <span>Present</span>
-      <span>Future</span>
-    </div>
-  </div>
-</section>
-<p style="font-size:0.8rem; color:#94a3b8; margin-top:1rem;">
-  Chart is illustrative and for educational purposes only.
-</p>
-<section class="price-ticker">
-  <h2>Live Silver Spot Price</h2>
-  <p>
-    <a href="https://goldprice.org/silver-price.html" target="_blank">
-      View live silver price
-    </a>
-  </p>
-</section>
-  <div class="price-image">
-    <img
-      src="images/silver-bars2.jpg"
-      alt="Silver bars with price chart background"
-    >
-  </div>
-</section>
-
-   <section class="history">
-  <h2>Historical Significance of Silver</h2>
-
-  <img
-    src="images/silver-gorilla2.jpg"
-    alt="There is no substitute for silver"
-    class="history-image"
-  >
-
-  <p>
-    Silver has been a cornerstone of human civilization for over 5,000 years...
-
-  <p>
-    Silver has been a cornerstone of human civilization for over 5,000 years.
-    Long before modern financial systems existed, silver functioned as both
-    money and material — trusted across empires, cultures, and eras.
-  </p>
-
-  <p>
-    Ancient civilizations such as Mesopotamia, Egypt, Greece, and Rome relied on
-    silver coinage to facilitate trade and preserve wealth. The Roman denarius,
-    the Spanish piece of eight, and early American silver dollars were not
-    symbolic currencies — they were value itself.
-  </p>
-
-  <p>
-    Unlike fiat currencies, silver’s worth has never depended on decree or
-    confidence alone. Its physical properties — conductivity, malleability,
-    reflectivity, and resistance to corrosion — made it indispensable in tools,
-    weapons, medicine, and later, industrial technology.
-  </p>
-
-  <p>
-    In the modern era, silver remains critical to electronics, solar energy,
-    medical instruments, and advanced manufacturing. Every technological leap
-    forward increases demand, while above-ground supplies continue to shrink.
-  </p>
-
-  <p>
-    History shows a consistent pattern: when systems are stressed — through
-    inflation, currency debasement, or economic collapse — silver reasserts
-    itself. There is no substitute that performs under pressure the way silver
-    does.
-  </p>
-</section>
-
-<div class="price-badge">
-  <div class="price-left">
-    <img
-      src="images/silver-coins5.gif"
-      alt="Animated silver coins"
-      class="price-gif"
-    >
-    <span>Silver Market — Live</span>
-  </div>
-
-  <a
-    href="https://www.investing.com/commodities/silver"
-    target="_blank"
-    rel="noopener">
-    View Spot Price →
-  </a>
-</div>
-
-
-    <section id="culture">
-      <h2>Silver as a Critical Mineral</h2>
+    <section>
+      <h2>Critical Mineral Status</h2>
       <p>
-        In the modern world, silver is increasingly recognized as a <strong>critical mineral</strong>.
-Its unmatched conductivity makes it essential to green energy, advanced electronics,
-and national infrastructure. This dual role — industrial necessity and monetary metal —
-gives silver a unique strategic importance. Silver's criticality stems from its irreplaceable properties in high-tech and sustainable industries.
-          </p>
-      <p>
-         - <strong>Renewable Energy</strong>: 
-        Silver paste is a key component in photovoltaic cells for solar panels, where it facilitates efficient electron flow. With global solar capacity expected to triple by 2030, demand for silver in this sector could rise by 50-100% according to industry reports.
+        Silver (Ag) is increasingly recognized as a critical mineral due to its
+        irreplaceable role in advanced technology, energy infrastructure, and
+        supply-chain security.
       </p>
-       <p>
-        - <strong>Electronics and EVs</strong>: 
-        It's used in conductive inks, switches, and batteries for electric vehicles (EVs). As EV adoption grows, silver consumption in automotive applications is projected to increase significantly. 
-       </p>
-       <p>
-       - <strong>Healthcare and Water Purification</strong>: 
-        Silver's antimicrobial properties make it vital in medical devices, wound dressings, and water filtration systems, especially in regions facing clean water shortages.
-     </p>
-      <p>
-    However, supply challenges add to its critical status. Over 70% of silver is mined as a byproduct of other metals like copper and lead, making production vulnerable to fluctuations in those markets. Geopolitical risks in major producers (e.g., Mexico, Peru, China) and recycling rates below 30% exacerbate potential shortages.
-Governments worldwide, including the US Department of the Interior and the EU, classify silver as a critical mineral due to these factors. Investors should monitor policies like the US Inflation Reduction Act, which boosts funding for domestic critical mineral supply chains.
-        </p>
-      <img src="images/critical-silver.jpg" alt="Silver (Ag) as a critical mineral" style="width:100%; border-radius:0.75rem; margin-top:1.5rem;">
     </section>
+
+    <section>
+      <h2>AG47 Thesis</h2>
+      <p>
+        AG47 represents the convergence of physical scarcity, monetary history,
+        and industrial necessity. As demand accelerates and supply constraints
+        tighten, silver’s strategic importance continues to grow.
+      </p>
+    </section>
+
   </main>
 
- <footer class="site-footer">
-  <p>
-    © 2026 AG47 Silver<br>
-    A Presentation of Valdez Capital Holdings, LLC. —
-    <a
-      href="https://www.reddit.com/user/ValdezCapitaHoldings/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Learn more
-    </a>
-  </p>
-</footer>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>
+      © 2026 AG47 Silver ·
+      <a href="https:/
 
-
-</body>
-</html>
