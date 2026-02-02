@@ -250,4 +250,6 @@ h2 {
   margin-bottom: 1.25rem;
   color: #e5e7eb;
 }
-
+html, body {
+  overflow-x: hidden;
+}
