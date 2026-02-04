@@ -292,3 +292,26 @@ button[disabled] {
 .footer a:hover {
   text-decoration: underline;
 }
+/* Gold vs Silver section */
+.gold-silver-grid {
+  grid-template-columns: 1fr;
+  margin-top: 0;
+}
+
+.mini-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.mini-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+/* 2-up mini cards on wider screens */
+@media (min-width: 860px) {
+  .gold-silver-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
