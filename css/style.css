@@ -315,3 +315,120 @@ button[disabled] {
     grid-template-columns: 1fr 1fr;
   }
 }
+/* =========================
+   Demand vs Supply Infographic
+   ========================= */
+
+.infographic {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.info-col {
+  padding: 0.25rem;
+}
+
+.info-head h3 {
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.info-head p {
+  margin: 0 0 0.75rem 0;
+}
+
+.pill {
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+}
+
+.pill--demand {
+  color: #93c5fd;
+}
+
+.pill--supply {
+  color: #a7f3d0;
+}
+
+.info-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.9rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.info-row p {
+  margin: 0.25rem 0 0 0;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 0.35rem;
+  box-shadow: 0 0 14px rgba(255,255,255,0.12);
+}
+
+.dot--demand {
+  background: #93c5fd;
+}
+
+.dot--supply {
+  background: #34d399;
+}
+
+.info-divider {
+  display: none; /* shown on desktop */
+  height: 100%;
+  align-items: center;
+  justify-items: center;
+  gap: 0.75rem;
+}
+
+.divider-line {
+  width: 2px;
+  height: 120px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.18), rgba(255,255,255,0.05));
+  border-radius: 99px;
+}
+
+.divider-badge {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: radial-gradient(circle at top, rgba(147,197,253,0.15), rgba(255,255,255,0.03));
+  box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+}
+
+/* Desktop layout: Demand | Divider | Supply */
+@media (min-width: 900px) {
+  .infographic {
+    grid-template-columns: 1fr 90px 1fr;
+    gap: 1.5rem;
+  }
+
+  .info-divider {
+    display: grid;
+  }
+}
