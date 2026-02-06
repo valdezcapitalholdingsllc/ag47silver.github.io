@@ -6,7 +6,7 @@ This website is dedicated to the chemical element **Silver (Ag)**, blending:
 - Modern industrial and technological uses
 - Silver as money, bullion, and a critical mineral
 
-🌐 Live site: https://ag47silver-io.github.io/ag47silver.github.io/
+🌐 Live site: https://avaldezcapitalholdingsllc.github.io/ag47silver.github.io/
 
 ---
 
